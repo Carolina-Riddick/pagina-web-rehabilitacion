@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link de reseteo de Css -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <div id="contenedor-header">
+            <img src="../img/logo.jpg" alt="logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./servicios.html">Servicios</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+            </nav>        
+        </div>
+    </header>
+    <main>
+        <h2 id="h2-contacto">Contacta con nosotros</h2>
+        <form>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" class="input-padron" required placeholder="Nombre">
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" class="input-padron" required placeholder="Apellido">
+            <label for="correoElectronico">Email</label>
+            <input type="email" id="correoElectronico"  class="input-padron" required placeholder="email@dominio.com">
+            <label for="telefono">Telefono</label>
+            <input type="tel" id="telefono" class="input-padron" required placeholder="Teléfono">
+            <label for="mensaje">Mensaje</label>
+            <textarea name="mensaje" id="mensaje" cols="60" rows="10" class="input-padron" placeholder="Ingrese un mensaje..."></textarea>
+            <fieldset>
+                <legend class="consulta-formulario"> ¿ Como le gustaria que lo contactemos ? </legend>
+                <label for="radio-email"><input type="radio" name="contacto" value="radio-email" id="radio-email">Email</label>
+                <label for="radio-telefono"><input type="radio" name="contacto" value="radio-telefono" id="radio-telefono">Telefono</label>
+                <label for="radio-wp"><input type="radio" name="contacto" value="radio-wp" id="radio-wp" checked>WhatsApp</label>
+            </fieldset>            
+            <fieldset>
+                <legend class="consulta-formulario"> ¿ En que horario prefiere ser atendido ? </legend>
+                <select>
+                   <option>Mañana</option>
+                   <option>Mediodia</option>
+                   <option>Tarde</option>
+                   <option>Tarde-noche</option>
+                </select>
+            </fieldset>        
+            <label id="checkbox"><input type="checkbox" name="checkbox" id="checkbox" checked>Le gustaria recibir novedades acerca de nuestros trabajos?</label>   
+            <input type="submit" name="contacto" value="Enviar formulario" id="boton-submit">
+        </form>
+        <table>
+            <thead>
+                <p id="titulo-horarios"> ¿ Cuales son nuestros horarios de atencion ? </p>
+                <tr>
+                    <th>Dia</th>               
+                    <th>Horario</th>
+                <tr>
+           </thead>
+            <tbody>
+                <tr>
+                    <td>Lunes</td>               
+                    <td>8 am - 20 pm</td>
+                </tr>
+                <tr>
+                    <td>Martes</td>               
+                    <td>8 am - 20 pm</td>
+                </tr>
+                <tr>
+                    <td>Miercoles</td>               
+                    <td>8 am - 20 pm</td>
+                <tr>
+                </tr>
+                    <td>Jueves</td>               
+                    <td>8 am - 20 pm</td>
+                <tr>
+                </tr>
+                    <td>Viernes</td>               
+                    <td>8 am - 20 pm</td>
+                <tr>
+                </tr>
+                    <td>Sabado</td>               
+                    <td> 9 am - 13 pm</td>
+                </tr>
+            </tbody>
+        </table>
+        <section id="mapa">
+            <h3 id="titulo-mapa">Nuestra ubicación</h3>
+            <p>Nuestro centro de rehabilitacion se encuentra ubicado en el corazon de la ciudad </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.3471839540057!2d-57.95844418501128!3d-34.92282878037814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e62dd769b9d7%3A0x8e5a62b28764b5ef!2sCatedral%20de%20La%20Plata!5e0!3m2!1ses-419!2sau!4v1674014416548!5m2!1ses-419!2sau" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+    <!-- FOOTER -->
+    <footer>
+        <div id="datos">
+            <img src="../img/logo.jpg" alt="logo" class="logo"/>
+            <p>ADM, C. 61 307, B1904 La Plata, Provincia de Buenos Aires</p>
+            <p>Telefono :(211)123-2541</p>
+            <p>info@rehabilitacion.edu.ar</p>
+            <div>
+                <nav>
+                    <ul>
+                        <li><a href="http://www.facebook.com/RehabilitacionYVida" target="_blank"><img src="../img/ico/fb.png"></a></li>
+                        <li><a href="http://www.twitter.com/RehabilitacionYVida" target="_blank"><img src="../img/ico/tw.png"></a></li>
+                        <li><a href="http://www.youtube.com/RehabilitacionYVida" target="_blank"><img src="../img/ico/yt.png"></a></li>
+                        <li><a href="http://www.instagram.com/RehabilitacionYVida" target="_blank"><img src="../img/ico/ig.png"></a></li>
+                    </ul>
+                </nav>
+            </div>     
+        </div>
+    </footer>
+</body>
+</html>
