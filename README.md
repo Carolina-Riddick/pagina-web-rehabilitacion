@@ -9,6 +9,10 @@
   - Icons
 
 
+Host Page: https://carolina-riddick.github.io/pagina-web-rehabilitacion/
+
+QR Code: '![Alt text](frame.png)'
+
 ---
 # pagina-web-rehabilitacion - EN
 
@@ -20,3 +24,8 @@
   - External files (videos, photos, links)
   - Google fonts
   - Icons
+
+
+Host Page: https://carolina-riddick.github.io/pagina-web-rehabilitacion/
+
+QR Code: '![Alt text](frame.png)'
